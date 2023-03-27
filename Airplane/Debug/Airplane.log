@@ -1,0 +1,53 @@
+﻿Build started 2021/12/19 11:21:11.
+     1>Project "D:\飞机大战\Airplane\Airplane.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_NON_CONFORMING_SWPRINTFS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt blood.cpp main.cpp Control.cpp Enemy.cpp GameControl.cpp Ship.cpp SmallEnemy.cpp View.cpp
+         View.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\飞机大战\airplane\view.cpp(7): warning C4081: expected 'newline'; found ';'
+         Control.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\飞机大战\airplane\control.cpp(13): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\飞机大战\airplane\control.cpp(13): error C2086: 'int blood' : redefinition
+                 d:\飞机大战\airplane\control.h(56) : see declaration of 'blood'
+     1>d:\飞机大战\airplane\control.cpp(13): error C2078: too many initializers
+         blood.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\飞机大战\airplane\blood.cpp(39): error C2228: left of '.getwidth' must have class/struct/union
+                 type is 'int'
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\飞机大战\airplane\main.cpp(23): warning C4551: function call missing argument list
+         Generating Code...
+         Compiling...
+         Enemy.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         Generating Code...
+         Compiling...
+         GameControl.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         Generating Code...
+         Compiling...
+         Ship.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         Generating Code...
+         Compiling...
+         SmallEnemy.cpp
+     1>d:\飞机大战\airplane\control.h(56): error C2146: syntax error : missing ';' before identifier 'blood'
+     1>d:\飞机大战\airplane\control.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         Generating Code...
+     1>Done Building Project "D:\飞机大战\Airplane\Airplane.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.24
